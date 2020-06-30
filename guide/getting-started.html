@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Getting Started</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    
+    <meta name="description" content="">
+    <link rel="preload" href="/assets/css/0.styles.34d67128.css" as="style"><link rel="preload" href="/assets/js/app.af757b60.js" as="script"><link rel="preload" href="/assets/js/2.31041ecb.js" as="script"><link rel="preload" href="/assets/js/8.df83f937.js" as="script"><link rel="prefetch" href="/assets/js/10.e1e39058.js"><link rel="prefetch" href="/assets/js/11.881b67be.js"><link rel="prefetch" href="/assets/js/3.54d3a012.js"><link rel="prefetch" href="/assets/js/4.cdb0f7db.js"><link rel="prefetch" href="/assets/js/5.03e5cc5d.js"><link rel="prefetch" href="/assets/js/6.3ce4c982.js"><link rel="prefetch" href="/assets/js/7.3ab8e3cc.js"><link rel="prefetch" href="/assets/js/9.cd7ce446.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.34d67128.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/guide/" class="nav-link router-link-active">
+  Guide
+</a></div> <a href="https://github.com/gqlc/gqlc" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/guide/" class="nav-link router-link-active">
+  Guide
+</a></div> <a href="https://github.com/gqlc/gqlc" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Guide</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/" aria-current="page" class="sidebar-link">Installing</a></li><li><a href="/guide/getting-started.html" aria-current="page" class="active sidebar-link">Getting Started</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/getting-started.html#creating-a-schema" class="sidebar-link">Creating a Schema</a></li><li class="sidebar-sub-header"><a href="/guide/getting-started.html#generating-a-service" class="sidebar-link">Generating a Service</a></li></ul></li><li><a href="/guide/config.html" class="sidebar-link">Config</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Advanced</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/importing-types.html" class="sidebar-link">Importing Types</a></li><li><a href="/guide/remote-service-as-a-source.html" class="sidebar-link">Remote Service as a Source</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="getting-started"><a href="#getting-started" class="header-anchor">#</a> Getting Started</h1> <h2 id="creating-a-schema"><a href="#creating-a-schema" class="header-anchor">#</a> Creating a Schema</h2> <p>The usage of <code>gqlc</code> doesn't actually begin with <code>gqlc</code> itself but instead with
+you, the developer, thinking about your services' API. For example, lets say
+one day you're tasked with implementing a service that manages all information
+related to the Star Wars franchise. You may begin by roughly outling your
+schema as the following:</p> <div class="language-graphql extra-class"><pre class="language-graphql"><code><span class="token keyword">schema</span> <span class="token punctuation">{</span>
+  <span class="token attr-name">query</span><span class="token punctuation">:</span> Query<span class="token punctuation">,</span>
+  <span class="token attr-name">mutation</span><span class="token punctuation">:</span> Mutation
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> <span class="token class-name">Query</span> <span class="token punctuation">{</span>
+  <span class="token string">&quot;hero returns a character in an episode&quot;</span>
+  <span class="token attr-name">hero</span><span class="token punctuation">(</span><span class="token attr-name">episode</span><span class="token punctuation">:</span> Episode<span class="token punctuation">)</span><span class="token punctuation">:</span> Character
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> <span class="token class-name">Mutation</span> <span class="token punctuation">{</span>
+  <span class="token string">&quot;addCharacter adds a new Character given their name and the episodes they appeared in.&quot;</span>
+  <span class="token attr-name">addCharacter</span><span class="token punctuation">(</span><span class="token attr-name">name</span><span class="token punctuation">:</span> String<span class="token operator">!</span><span class="token punctuation">,</span> <span class="token attr-name">episodes</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>Episode<span class="token operator">!</span><span class="token punctuation">]</span><span class="token operator">!</span><span class="token punctuation">)</span><span class="token punctuation">:</span> Character
+<span class="token punctuation">}</span>
+
+<span class="token string">&quot;Episode represents the episodes of the Star Wars saga.&quot;</span>
+<span class="token keyword">enum</span> <span class="token class-name">Episode</span> <span class="token punctuation">{</span>
+  <span class="token constant">NEWHOPE</span>
+  <span class="token constant">EMPIRE</span>
+  <span class="token constant">JEDI</span>
+<span class="token punctuation">}</span>
+
+<span class="token string">&quot;Character represents a character in any episode of Star Wars.&quot;</span>
+<span class="token keyword">type</span> <span class="token class-name">Character</span> <span class="token punctuation">{</span>
+  <span class="token attr-name">name</span><span class="token punctuation">:</span> String<span class="token operator">!</span>
+  <span class="token attr-name">appearsIn</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>Episode<span class="token punctuation">]</span><span class="token operator">!</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="generating-a-service"><a href="#generating-a-service" class="header-anchor">#</a> Generating a Service</h2> <p>Once you think your API is complete (or complete enough), <code>gqlc</code> can now be used
+to speed up your development time by generating the scaffolding of your service
+based on the above GraphQL IDL. Let's say your language of choice is JavaScript,
+then simply run the following:</p> <div class="language-bash extra-class"><pre class="language-bash"><code>gqlc --js_out <span class="token builtin class-name">.</span> api.gql
+</code></pre></div><p>The above command will generate a file, <em>api.js</em>, that contains the scaffolding
+on which you implement the business logic for the service.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">var</span> <span class="token punctuation">{</span>
+  GraphQLSchema<span class="token punctuation">,</span>
+  GraphQLObjectType<span class="token punctuation">,</span>
+  GraphQLEnumType<span class="token punctuation">,</span>
+  GraphQLList<span class="token punctuation">,</span>
+  GraphQLNonNull<span class="token punctuation">,</span>
+  GraphQLString
+<span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'graphql'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> Schema <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">GraphQLSchema</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  query<span class="token operator">:</span> Query<span class="token punctuation">,</span>
+  mutation<span class="token operator">:</span> Mutation
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> EpisodeType <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">GraphQLEnumType</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token string">'Episode'</span><span class="token punctuation">,</span>
+  values<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token constant">NEWHOPE</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      value<span class="token operator">:</span> <span class="token string">'NEWHOPE'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token constant">EMPIRE</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      value<span class="token operator">:</span> <span class="token string">'EMPIRE'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token constant">JEDI</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      value<span class="token operator">:</span> <span class="token string">'JEDI'</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> QueryType <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">GraphQLObjectType</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token string">'Query'</span><span class="token punctuation">,</span>
+  fields<span class="token operator">:</span> <span class="token punctuation">{</span>
+    hero<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> Character<span class="token punctuation">,</span>
+      args<span class="token operator">:</span> <span class="token punctuation">{</span>
+        episode<span class="token operator">:</span> <span class="token punctuation">{</span>
+          type<span class="token operator">:</span> Episode
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token function">resolve</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">/* TODO */</span> <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> MutationType <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">GraphQLObjectType</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token string">'Mutation'</span><span class="token punctuation">,</span>
+  fields<span class="token operator">:</span> <span class="token punctuation">{</span>
+    addCharacter<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> Character<span class="token punctuation">,</span>
+      args<span class="token operator">:</span> <span class="token punctuation">{</span>
+        name<span class="token operator">:</span> <span class="token punctuation">{</span>
+          type<span class="token operator">:</span> <span class="token keyword">new</span> <span class="token class-name">GraphQLNonNull</span><span class="token punctuation">(</span>GraphQLString<span class="token punctuation">)</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        episodes<span class="token operator">:</span> <span class="token punctuation">{</span>
+          type<span class="token operator">:</span> <span class="token keyword">new</span> <span class="token class-name">GraphQLNonNull</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">GraphQLList</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">GraphQLNonNull</span><span class="token punctuation">(</span>Episode<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token function">resolve</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">/* TODO */</span> <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> CharacterType <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">GraphQLObjectType</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token string">'Character'</span><span class="token punctuation">,</span>
+  fields<span class="token operator">:</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> <span class="token keyword">new</span> <span class="token class-name">GraphQLNonNull</span><span class="token punctuation">(</span>GraphQLString<span class="token punctuation">)</span><span class="token punctuation">,</span>
+      <span class="token function">resolve</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">/* TODO */</span> <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    appearsIn<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> <span class="token keyword">new</span> <span class="token class-name">GraphQLNonNull</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">GraphQLList</span><span class="token punctuation">(</span>Episode<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+      <span class="token function">resolve</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">/* TODO */</span> <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>All that's left is to fill in the resolvers. Then, it's on its way to deployment!</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/guide/" class="prev router-link-active">
+        Installing
+      </a></span> <span class="next"><a href="/guide/config.html">
+        Config
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.af757b60.js" defer></script><script src="/assets/js/2.31041ecb.js" defer></script><script src="/assets/js/8.df83f937.js" defer></script>
+  </body>
+</html>
