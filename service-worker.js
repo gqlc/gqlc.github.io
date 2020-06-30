@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "6881a8f8310c272a8af9095249a320f1"
+    "revision": "1b01704c5f398cfcf1203aeaab01cb36"
   },
   {
     "url": "assets/css/0.styles.34d67128.css",
@@ -78,32 +78,32 @@ self.__precacheManifest = [
     "revision": "f10692fe224e6b28392c05ab5a887595"
   },
   {
-    "url": "assets/js/app.af757b60.js",
-    "revision": "0676c3c756c2b0c0f12103d4e0508523"
+    "url": "assets/js/app.6162bc6e.js",
+    "revision": "f7ceb7b41056eea17344dbd907f32d7d"
   },
   {
     "url": "guide/config.html",
-    "revision": "4b3ed8ebf8727678a81adf8af780ec98"
+    "revision": "24ed13a31955ef66c24d10e302a3e51f"
   },
   {
     "url": "guide/getting-started.html",
-    "revision": "d6ccb2991b9cc97460f8ebf1c49c68a1"
+    "revision": "278ed3248b367003a04f0009d1cd6775"
   },
   {
     "url": "guide/importing-types.html",
-    "revision": "bbc3a8b367f2dfcce78fdeed59e5a052"
+    "revision": "32b6761d63928091713f4c82ce8296e4"
   },
   {
     "url": "guide/index.html",
-    "revision": "a25c2d2bb4db53c41b3bdc11ff0e6e3d"
+    "revision": "60ca2acc2d0927babf78ca41ba8f3ba0"
   },
   {
     "url": "guide/remote-service-as-a-source.html",
-    "revision": "1f771401e96ae056513388f89e895918"
+    "revision": "13af57ff9e80a82f7861ec64dad82ec9"
   },
   {
     "url": "index.html",
-    "revision": "da6eb8b7fe7ec5d3f31d8389a041c1c1"
+    "revision": "570b73ffff241ca74affac30f7f769d7"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
