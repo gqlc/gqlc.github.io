@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "fbdb9bcfc083c5a09324114d4cb41fb0"
+    "revision": "e57d8bcc21890e268e23d2a309705f08"
   },
   {
     "url": "assets/css/0.styles.34d67128.css",
@@ -78,8 +78,8 @@ self.__precacheManifest = [
     "revision": "bc016e75e8fdc802b0541f45dd277db2"
   },
   {
-    "url": "assets/js/5.03e5cc5d.js",
-    "revision": "556b8f4686e27e7cd2303f8030c67b83"
+    "url": "assets/js/5.a3b3e033.js",
+    "revision": "86583b4943a59275ea3ede2c456699c3"
   },
   {
     "url": "assets/js/6.538a52c6.js",
@@ -98,52 +98,52 @@ self.__precacheManifest = [
     "revision": "c6b5f110cf42d2c1b1487ccfcf568206"
   },
   {
-    "url": "assets/js/app.4bc732a8.js",
-    "revision": "14e8ee5809bc1a5ce726cc743fbb0868"
+    "url": "assets/js/app.522faab8.js",
+    "revision": "44f61059eca793327f6aa4b876f929c0"
   },
   {
     "url": "generators/community.html",
-    "revision": "53ebe75fb89b2833e99c9d3a4c0980e8"
+    "revision": "d3b3475acd5a1632a8bf95d96be421b4"
   },
   {
     "url": "generators/documentation.html",
-    "revision": "41f665919a64e7a853eb2eccf2396f54"
+    "revision": "f5c921d3c2f6338692821691fe3fe303"
   },
   {
     "url": "generators/go.html",
-    "revision": "2993bbc93742b0f35b43de9e1b3c9463"
+    "revision": "f6ec896db207fbd5a33b5f7cee3be638"
   },
   {
     "url": "generators/index.html",
-    "revision": "896ca102370d391f61d9e410d0b21a12"
+    "revision": "daddeef8717fcc86356dfd626bccd6de"
   },
   {
     "url": "generators/javascript.html",
-    "revision": "04c2023832fe9ec28db16d3106027570"
+    "revision": "6c2d0cd8d862d059850d8f733dfb1c30"
   },
   {
     "url": "guide/config.html",
-    "revision": "2a7eff18dfd827f3a8dfd6bb104d0eee"
+    "revision": "fc752cac7af67d5234be2abb4332a525"
   },
   {
     "url": "guide/getting-started.html",
-    "revision": "4c60e96dbd3ea7ce5d3aa217682315c5"
+    "revision": "20fd8e1c0c79d601e31b7cf38b8c957a"
   },
   {
     "url": "guide/importing-types.html",
-    "revision": "9a57294772efca7ebd2df97a3adc433a"
+    "revision": "40069cbefa48e1532cfc69c2b6cc9b62"
   },
   {
     "url": "guide/index.html",
-    "revision": "f65256a49707f5ce023a071ae1742c02"
+    "revision": "19331052d01c15d6aa0c79abad4b5869"
   },
   {
     "url": "guide/remote-service-as-a-source.html",
-    "revision": "d44be72d969564ad19a46d16661866da"
+    "revision": "bc9719b19b0d1aa2eb87906fea461210"
   },
   {
     "url": "index.html",
-    "revision": "2f3765fe7a30236ad7b35e4021fb4083"
+    "revision": "5e2d378c7ec867aa74aeaa25efed6c3a"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
